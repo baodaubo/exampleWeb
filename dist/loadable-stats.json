@@ -1,0 +1,110 @@
+{
+  "hash": "61c5e2247f2d9c7c2103",
+  "publicPath": "/",
+  "outputPath": "C:\\Users\\RD-41\\Desktop\\my-app\\dist",
+  "assetsByChunkName": {
+    "main": [
+      "server.js"
+    ],
+    "Setting": [
+      "305.server.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "server.js",
+      "size": 6431,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        792
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "305.server.js",
+      "size": 272,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true
+      },
+      "chunkNames": [
+        "Setting"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [
+        305
+      ],
+      "auxiliaryChunks": []
+    }
+  ],
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        792
+      ],
+      "assets": [
+        {
+          "name": "server.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "Setting": {
+      "name": "Setting",
+      "chunks": [
+        305
+      ],
+      "assets": [
+        {
+          "name": "305.server.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": 792,
+      "files": [
+        "server.js"
+      ]
+    },
+    {
+      "id": 305,
+      "files": [
+        "305.server.js"
+      ]
+    }
+  ]
+}

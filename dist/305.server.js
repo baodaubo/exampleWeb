@@ -1,0 +1,1 @@
+"use strict";exports.id=305,exports.ids=[305],exports.modules={314:(e,t,l)=>{var d=l(751);Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var a=d(l(15));t.default=()=>a.default.createElement("div",null,a.default.createElement("p",null,"Setting Page"))}};

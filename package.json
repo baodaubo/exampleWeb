@@ -1,0 +1,92 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.7",
+    "@babel/node": "^7.26.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.26.3",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/register": "^7.25.9",
+    "@loadable/babel-plugin": "^5.16.1",
+    "@loadable/component": "^5.16.4",
+    "@loadable/server": "^5.16.5",
+    "@loadable/webpack-plugin": "^5.15.2",
+    "antd": "^5.24.0",
+    "babel-loader": "^9.2.1",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "cra-template": "1.2.0",
+    "cross-env": "^7.0.3",
+    "express": "^4.21.2",
+    "module-alias": "^2.2.3",
+    "nodemon": "^3.1.9",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router": "^7.1.5",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "5.0.1",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "svg-url-loader": "^8.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0",
+    "webpack-hot-middleware": "^2.26.1",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "scripts": {
+    "build:client": "webpack --config webpack.client.js",
+    "build:server": "webpack --config webpack.server.js",
+    "build": "npm run build:client && npm run build:server",
+    "dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/server/index.js",
+    "start": "node dist/server.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "_moduleAliases": {
+    "@client": "src/client",
+    "@server": "./src/server",
+    "@component": "./src/client/component",
+    "@customHook": "./src/client/customHook"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.7",
+    "@babel/node": "^7.26.0",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-react": "^7.26.3",
+    "@babel/register": "^7.25.9",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "nodemon": "^3.1.9",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "svg-url-loader": "^8.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0",
+    "webpack-hot-middleware": "^2.26.1",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
