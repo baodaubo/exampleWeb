@@ -1,7 +1,7 @@
 {
-  "hash": "61c5e2247f2d9c7c2103",
+  "hash": "6373f008a7dbbd7430a1",
   "publicPath": "/",
-  "outputPath": "C:\\Users\\RD-41\\Desktop\\my-app\\dist",
+  "outputPath": "C:\\Users\\RD-41\\Desktop\\exampleWeb\\dist",
   "assetsByChunkName": {
     "main": [
       "server.js"
@@ -14,7 +14,7 @@
     {
       "type": "asset",
       "name": "server.js",
-      "size": 6431,
+      "size": 6379,
       "emitted": false,
       "comparedForEmit": false,
       "cached": true,

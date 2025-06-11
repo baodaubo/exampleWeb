@@ -2,7 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-    mode: "development",
+    mode: "production",
     resolve: {
         alias: {
             "@client": path.resolve(__dirname, "src/client/"),
@@ -27,10 +27,29 @@ module.exports = {
     },
     module: {
         rules: [
+            // {
+            //     test: /\.module\.css$/,
+            //     use: ['style-loader', {
+            //         loader: 'css-loader',
+            //         options: {
+            //             modules: true,
+            //         },
+            //     }],
+            // },
             // CSS & SCSS Loader
             {
                 test: /\.css$/,
                 use: ["style-loader", "css-loader"],
+                // use: [
+                //     "style-loader",
+                //     {
+                //         loader: 'css-loader',
+                //         options: {
+                //             exportOnlyLocals: true,
+                //             // modules: true,
+                //         },
+                //     },
+                // ],
             },
             {
                 test: /\.scss$/,

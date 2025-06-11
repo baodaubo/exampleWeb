@@ -33,9 +33,9 @@ import React from "react";
 const Main = () => {
     // const { data, loading, error } = useFetch("https://jsonplaceholder.typicode.com/users");
 
-    if (loading) return <p>⏳ Loading...</p>;
+    // if (loading) return <p>⏳ Loading...</p>;
 
-    if (error) return <p>❌ Error: {error}</p>;
+    // if (error) return <p>❌ Error: {error}</p>;
 
     // const handleReset = async () => {
     //     try {
